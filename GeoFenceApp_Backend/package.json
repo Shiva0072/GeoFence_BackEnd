@@ -1,0 +1,20 @@
+{
+  "name": "geofenceapp_backend",
+  "version": "1.0.0",
+  "description": "Backend of GeoFenceApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam Verma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ip": "^1.1.5",
+    "mongoose": "^6.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
